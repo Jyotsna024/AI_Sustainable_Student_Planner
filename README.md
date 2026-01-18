@@ -1,23 +1,30 @@
 # AI Sustainable Student Planner
 
-A full-stack AI-powered web application that helps students plan a sustainable daily routine.
+AI Sustainable Student Planner is an AI-powered application designed to help students plan their daily routines while promoting well-being and sustainable lifestyle choices. The system uses machine learning to analyze student habits and generate personalized schedules, sustainability scores, and burnout risk predictions.
 
 ## Features
-- User login & registration
-- AI-generated daily planner (tabular)
-- Sustainability score
-- Burnout prediction using ML
+- AI-generated daily planner
+- Sustainability score calculation
+- Burnout prediction using machine learning
+- Explainable AI insights with confidence scores
 - Analytics dashboard
-- MongoDB data storage
+- History tracking of user activity
 
-## Tech Stack
-Frontend: HTML, CSS, JavaScript  
-Backend: FastAPI  
-Database: MongoDB  
-AI/ML: Scikit-learn  
+## SDGs Aligned
+- SDG 3: Good Health and Well-Being
+- SDG 4: Quality Education
+- SDG 12: Responsible Consumption and Production
+- SDG 13: Climate Action
 
-## Run Backend
-uvicorn main:app --reload
+## Technologies Used
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
 
-## Run Frontend
-Open frontend/index.html in browser
+## Impact
+The project supports student mental well-being, improves productivity, and encourages sustainable daily habits through AI-driven insights.
+
+## Internship
+Developed as part of the 1M1B AI for Sustainability Virtual Internship.
